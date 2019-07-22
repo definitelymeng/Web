@@ -1,0 +1,39 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color:#2c3e50;
+}
+
+span{
+	font-size: 1.5em;
+	color:#2c3e50;
+}
+
+h1{
+	color:#2c3e50;
+}
+
+.card-header{
+	background:#2c3e50;
+}
+
+#videoinfo{
+	color:#2c3e50;
+	width:28%;
+	margin: 1.66%;
+	float:left;
+	position:fixed;
+	left:65%;
+   	top:54%;
+}
+
+#search{
+  width: 15%;
+  height: 15px;
+  padding: 12px 12px;
+}
+
+#searchbutton{
+	margin:6px;
+	background-color: #3498db;
+}
