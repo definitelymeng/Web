@@ -19,6 +19,8 @@ Have fun!
 ## Screenshots
 ![](img/matching1.png)
 
+![](img/matching2.png)
+
 ## Dependencies 
 Some features of this game are achieved with the help of Font-Awesome and Easytimer! Thanks to them!
 
