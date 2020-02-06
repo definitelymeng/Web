@@ -1,5 +1,6 @@
 # Spotify Play
 ### This is the final group project for COMP 426 Mordern Web Programming. I am responsible for the frontend, and my teammate focuses on backend. 
+if you want a video walk-through of our project, please click [Intro to Spotify Play](https://youtu.be/1OdxQQwAIow)
 
 Our website allows user to sign up and connect to their Spotify through Spotify API in their account page. 
 ![](img/signin.png)
