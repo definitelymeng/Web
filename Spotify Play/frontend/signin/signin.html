@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script
+      src="https://kit.fontawesome.com/45834999ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Spotify Battle Login</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 col-md-7 d-none d-sm-block" id="left"></div>
+        <div
+          class="col-xs-12 col-sm-8 col-md-5 d-flex align-items-center justify-content-center vh-100"
+          id="right"
+        >
+          <div class="row justify-content-center">
+            <div class="col-12 d-flex justify-content-center">
+              <i class="fas fa-lock mr-3"></i>
+              <p class="lead text-white">Sign in</p>
+            </div>
+            <form class="col-12 mt-2">
+              <div class="form-group mb-0">
+                <label for="user-email" class="text-light lead">Username</label>
+                <input
+                  class="form-control text-light"
+                  id="user-email"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="form-group mt-2">
+                <label for="user-password" class="text-light lead"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control text-light"
+                  id="user-password"
+                />
+              </div>
+              <button type="button" class="btn mt-3 col-12" id="submit-form">
+                Submit
+              </button>
+              <div class="row justify-content-between mt-2">
+                <div class="col-5">
+                  <a
+                    href="../signup/signup.html"
+                    class="options"
+                    id="create-account"
+                    >Don't have an account?</a
+                  >
+                </div>
+                <div class="col-4">
+                  <a href="" class="options">Forget password?</a>
+                </div>
+              </div>
+              <div id="warning" class="text-danger mt-3"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/axios/dist/axios.js"></script>
+    <script src="signin.js"></script>
+  </body>
+</html>

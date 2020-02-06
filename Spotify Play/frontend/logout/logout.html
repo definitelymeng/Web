@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/45834999ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../style.css" />
+    <title>Log Out</title>
+  </head>
+  <body style="background-color:#f8f9fa">
+    <nav class="bg-dark sticky-top py-1">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between"
+      >
+        <span style="font-size: 40px; color: white;">
+          <i class="fab fa-spotify"></i>
+        </span>
+
+        <div class="py-2 d-none d-md-inline-block">
+          <a class="text-white" href="../signin/signin.html" id="signin"
+            >Sign in</a
+          >
+          <span class="text-white mx-3">/</span>
+          <a class="text-white" href="../signup/signup.html" id="signup"
+            >Sign up</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center py-5">
+      <p class="lead">You've successfully logged out</p>
+      <a href="../index.html" class="text-info">Return to Public Home Page</a>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/axios/dist/axios.js"></script>
+    <script src="logout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script
+      src="https://kit.fontawesome.com/45834999ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>My Account</title>
+  </head>
+  <body class="bg-light">
+    <nav class="bg-dark sticky-top py-1">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between"
+      >
+        <span style="font-size: 40px; color: white;">
+          <i class="fab fa-spotify"></i>
+        </span>
+        <div class="py-2 d-none d-md-inline-block">
+          <a class="text-white" href="../logout/logout.html" id="logout"
+            >Log out</a
+          >
+          <span class="text-white mx-3">/</span>
+          <a class="text-white" href="account.html" id="account">My Account</a>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <!-- from bootstrap example https://getbootstrap.com/docs/4.4/examples/dashboard/ -->
+      <nav class="col-lg-2 d-none d-lg-block bg-light shadow p-4">
+        <ul class="nav flex-column position-fixed">
+          <li class="nav-item ">
+            <a class="nav-link active text-dark" href="#spotify-link">
+              <i
+                class="fas fa-music mr-1 text-secondary"
+                style="font-size: 20px;"
+              ></i>
+              Spotify Connect <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active text-dark" href="#my-playlist">
+              <i
+                class="fas fa-list-ul mr-1 text-secondary"
+                style="font-size: 20px;"
+              ></i>
+              My Playlists <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active text-dark" href="../home/home.html">
+              <i
+                class="fas fa-home mr-1 text-secondary"
+                style="font-size: 20px;"
+              ></i>
+              Homepage <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="col-md-10 px-3">
+        <div id="spotify-link" class="d-flex justify-content-center">
+          <div class="card mt-3" style="width: 36rem">
+            <img src="../img/signup2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">
+                Connect to Your Spotify
+              </h5>
+              <p class="card-text">
+                Share your playlists with thousands of music fans! Discover new
+                music everyday at the the world largest music social website
+              </p>
+              <a
+                href="https://accounts.spotify.com/authorize?client_id=6e6a8c9f7a5d4a278f1cb8616ad517d7&redirect_uri=http:%2F%2Fwww.connectbo.com%2Fauthorization%2F&scope=user-read-private%20user-read-email&response_type=token&state=123"
+                class="btn btn-dark bg-dark border-0"
+                >Connect Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <hr class="shadow" />
+        <div id="my-playlist" class="d-flex justify-content-center">
+          <div class="card mt-3" style="width: 36rem">
+            <img src="../img/playlist.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">
+                Manage my playlist
+              </h5>
+              <p class="card-text">
+                Already connected to your Spotify account? Now it's time to see
+                your playlists!
+              </p>
+              <button class="btn bg-dark text-white" id="get-list">
+                Browsing
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="shadow" />
+      </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/axios/dist/axios.js"></script>
+    <script src="account.js"></script>
+  </body>
+</html>
