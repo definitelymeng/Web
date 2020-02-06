@@ -1,0 +1,27 @@
+{
+  "users": {
+    "bo": {
+      "passwordHash": "$2b$10$4.TZPSEF8xOGvkKKUjmS0OROed6uhmRgwzWHTxJVQa9CM6GPtbGuO"
+    },
+    "meng": {
+      "passwordHash": "$2b$10$raKyZ7M5pfdJkL2n.Nx7DOGBAo3F6phYyLvkEKfemExbPjBjzpDL."
+    },
+    "testuser": {
+      "passwordHash": "$2b$10$ykL/USVn5TheuvCLM0EWZ.Pa5/7PNPThG6lZrKLqN.yOs/wweFIxK"
+    },
+    "test": {
+      "passwordHash": "$2b$10$9whTAoiyWCMviDd3mduT0eCzU.qm7h72AUCq980.h8BtQ.qFc29fK"
+    },
+    "asdf": {
+      "passwordHash": "$2b$10$q8LuDU4pj5bA7kIlK3vV8epFvF5rdvcVV.sSwhyw9yyZWvNnOVrQ2"
+    },
+    "test@gmail": {
+      "com": {
+        "passwordHash": "$2b$10$RxNzwEZ.J2RnZY.rXBxPfe3j5yVMrjUQvUqSDB782.afK6PjhKVoS"
+      }
+    },
+    "musicfan": {
+      "passwordHash": "$2b$10$zu5No/Gt5z3yBPeMvjyXlOmRIyPtSfsUWZKj3PP9YZsDUMXR.8.rO"
+    }
+  }
+}
