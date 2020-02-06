@@ -17,8 +17,7 @@ To play this game, simply download the game folder and open the index.html file.
 Have fun!
 
 ## Screenshots
-![Image of game]
-(https://github.com/definitelymeng/img/blob/master/matching1.png)
+![](img/matching1.png)
 
 ## Dependencies 
 Some features of this game are achieved with the help of Font-Awesome and Easytimer! Thanks to them!
